@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "http://loceriacasell.com"
-languageCode = "es-pe"
-title = "Loceria Casell"
-theme = "agency"
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Hugo Agency Theme"
+theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Loceria Casell"
-	description = "Venta de productos para el hogar"
+	name = "Your name"
+	description = "Your description"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -31,64 +31,49 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "loceriacasell@gmail.com"
+	email = "your@email.com"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "Loceria Casell"
-		services = "Productos"
-		portfolio = "Novedades"
-		about = "Eventos"
-		team = "Promocionales"
-		contact = "Contactenos"
+		brand = "The Agency"
+		services = "Services"
+		portfolio = "Portfolio"
+		about = "About"
+		team = "Team"
+		contact = "Contact"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Loceria Casell"
-		subtitle = "Venta de Productos para el Hogar"
-		buttonText = "Productos"
+		title = "Welcome To Our Studio!"
+		subtitle = "It's nice to meet you"
+		buttonText = "Tell me more"
 
 
 	# Services section
 	[params.services]
-		title = "Productos"
-		subtitle = "Productos en gran rebaja."
+		title = "Services"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-shopping-cart"
-                title = "Cristaleria"
-                description = "info de cristaleria."
+                title = "E-Commerce"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
                 icon = "fa-laptop"
-                title = "Vajilla"
-                description = "."
+                title = "Responsive Design"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
                 icon = "fa-lock"
-                title = "Bateria"
-                description = "."
-
-            [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Cubiertos"
-                description = "."
-
-            [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Plasticos"
-                description = "."
-
-            [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Otros"
-                description = "."
+                title = "Web"
+                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 	# Portfolio section
 	[params.portfolio]
